@@ -1,0 +1,79 @@
+h1 {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container,
+address {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background: rgb(10, 88, 82);
+}
+
+button {
+  color: #0099cc;
+  background: transparent;
+  border: 2px solid #0099cc;
+  border-radius: 6px;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  font-size: 26px;
+  color: #0099cc;
+  background: rgb(56, 80, 78);
+  border: 2px solid #008cba;
+  border-radius: 6px;
+}
+
+label {
+  color: #0036cc;
+  font-size: 22px;
+}
+
+h2 {
+  color: #07303d;
+}
+
+hr {
+  margin-top: 10px;
+  border: 5px solid;
+  color: rgb(50, 161, 205);
+}
+
+#mensaje-advertencia {
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 24px;
+  color: rgb(93, 2, 2);
+  font-family: monospace;
+}
+
+address {
+  margin-top: 10px;
+}

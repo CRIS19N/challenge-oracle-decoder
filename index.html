@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+
+  <!-- estilo para la app web -->
+  <link rel="stylesheet" href="src/css/encriptador.css">
+
+  <!-- funcionalidad para la app web -->
+  <script src="src/js/encriptador.js" defer></script>
+</head>
+
+<body>
+
+
+  <h1>Bienvenido a el encriptador</h1>
+
+  <article class="container">
+    <h2>encriptador</h2>
+    <form action="#">
+
+      <span id="mensaje-advertencia"></span>
+
+      <label for="textoUser">Introduce tu texto:</label>
+      <textarea id="textoUser" cols="30" rows="10"></textarea>
+      <button id="encriptarText" type="button">encriptar texto</button>
+      <button id="desencriptarText" type="button">desencriptar texto</button>
+    </form>
+    <hr>
+
+    <h2>desencriptador</h2>
+    <form action="">
+      <label for="textareaEncriptDesencript">texto encriptado/desencriptado</label>
+      <br>
+      <textarea name="" id="textareaEncriptDesencript" cols="30" rows="10" readonly></textarea>
+      <button id="copieText" type="button">copie y pegue</button>
+      <button type="reset">LIMPIAR</button>
+    </form>
+
+
+  </article>
+  <footer>
+    <address>Desarrollado por Cristian David Cardona <a href="https://github.com/CRIS19N" target="_blank">@CRIS19N</a>
+    </address>
+  </footer>
+
+</body>
+
+</html>
