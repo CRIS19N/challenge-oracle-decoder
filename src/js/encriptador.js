@@ -64,8 +64,9 @@ function readyDom() {
 
     //console.log(this.value);
     //validamos que no hayan caracteres diferentes a las letras minúsculas, es decir devuelve false si encuentra caracteres diferentes.
-    let result = /^[a-z ]+$/.test(this.value);
+    let result = /^[a-z\s]+$/.test(this.value);
 
+    console.log(result);
     if (!result) {
       MENSAJEADVERTENCIA.textContent =
         "Solo se permiten letras, elimina cualquier otro carácter. como:=>(./ñ-)";
