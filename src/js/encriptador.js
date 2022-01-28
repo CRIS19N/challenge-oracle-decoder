@@ -64,7 +64,7 @@ function readyDom() {
 
     //console.log(this.value);
     //validamos que no hayan caracteres diferentes a las letras minúsculas, es decir devuelve false si encuentra caracteres diferentes.
-    let result = /^[a-z-ñ ]+$/.test(this.value);
+    let result = /^[a-z ]+$/.test(this.value);
 
     if (!result) {
       MENSAJEADVERTENCIA.textContent =

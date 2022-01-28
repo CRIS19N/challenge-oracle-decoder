@@ -1,17 +1,22 @@
 h1 {
   text-align: center;
+}
+
+h1,
+h2 {
   font-size: 22px;
   font-family: "Courier New", Courier, monospace;
 }
 
 .container,
 address {
-  width: 700px;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
 body {
+  margin-top: 20px;
   background: rgb(10, 88, 82);
 }
 
@@ -48,6 +53,7 @@ textarea {
   background: rgb(56, 80, 78);
   border: 2px solid #008cba;
   border-radius: 6px;
+  resize: none;
 }
 
 label {
@@ -75,5 +81,5 @@ hr {
 }
 
 address {
-  margin-top: 10px;
+  margin-top: 20px;
 }
