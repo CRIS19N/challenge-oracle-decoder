@@ -13,6 +13,7 @@ address {
 
 body {
   background: rgb(10, 88, 82);
+  width: 100%;
 }
 
 button {

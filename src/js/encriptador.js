@@ -62,7 +62,7 @@ function readyDom() {
     //pasamos todos los caracteres a minúsculas
     this.value = this.value.toLowerCase();
 
-    console.log(this.value);
+    //console.log(this.value);
     //validamos que no hayan caracteres diferentes a las letras minúsculas, es decir devuelve false si encuentra caracteres diferentes.
     let result = /^[a-z-ñ ]+$/.test(this.value);
 
